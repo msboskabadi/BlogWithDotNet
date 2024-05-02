@@ -1,14 +1,17 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MB.Application.Contracts\MB.Application.Contracts.csproj" />
-    <ProjectReference Include="..\MB.Infra.EFCore\MB.Infra.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
